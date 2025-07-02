@@ -3,117 +3,117 @@
     --primary-color: #026773;
     --secondary-color: #3CA6A6;
     --text-color: #024959;
-    --background-color: #e5f1ff;
-    --button-hover: #012E40;
-    --font-body: "Chocolate Classical Sans", serif;
-    --font-titulo: "marsi", serif;
+    --background-color; #e5f1ff;
+    --button-hover; #012E40;
+    --font-body: "chocolate classical sans", serif;
+    --font-titulo; "marsi", serif;
 }
 
 body {
     background-color: var (--background-color);
     color: var (--text-color);
-    line-height: 1.6;
+    line-height; 1.6;
 }
 .titulo{
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    color: white;
+    font-weight; bold;
+    text-align;center;
+    text-decoration; underline;
+    color: blue;
 }
 h3 h1 h2{
-    margin-top: 25 px;
-    text-align: justify;
+    margin-top; 25 px;
+    text-align; justify;
 }
 
 p {
-    margin-top: 20 px;
-    font-size: 17 px;
-    text-align: justify;
+    margin-top; 20 px;
+    font-size; 17 px;
+    text-align; justify;
 }
 
 img {
-    max-width: 90 %;
+    max-width; 90 %;
 }
 footer{
-    background-color: pink;
-    border-radius: 5 px;
+    background-color; peaple;
+    border-radius; 5 px;
 }
 .lista{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 50 px;
+    list-style; none;
+    display;flex;
+    justify-content; center;
+    gap; 50 px;
 }
 .nav1, .nav2, .nav3{
-    background-color: #cdd7db;
+    background-color; #cdd7db;
     padding: 5 px 10 px;
-    border-radius: 20 px;
-    position: relative;
+    border-radius; 20 px;
+    position; relative;
     z-index: 1;
 }
 .videoyt{
-    text-align: center;
+    text-align; center;
 }
 .mark a{
-    color: blue;
+    color; blue;
 }
 .img1{
-    border-color: #012E40;
-    border-style: solid;
-    text-align: center;
-    width: 300 px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-color; #012E40;
+    border-style; solid;
+    text-align; center;
+    width; 300 px;
+    height; auto;
+    display; block;
+    margin-left; auto;
+    margin-right; auto;
 }
-@media (max-width: 768 px) {
+@media (max-width; 768 px) {
     .conteudo {
-        width: 90 %;
+        width; 90 %;
     }
 
     nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display; flex;
+        flex-direction; column;
+        align-items; center;
     }
 
     nav ul li ol {
-        margin: 5 px 0;
+        margin; 5 px 0;
     }
 
     .cta-button {
-        width: 100 %;
+        width;100 %;
     }
 }
 .cta-footer{
-    color: aqua;
+    color; aqua;
 }
 .cabecalho{
-    position: relative;
-    padding: 5 px 5 px;
-    background-color: black;
-    border-radius: 8 px;
-    color: pople;
-    overflow: hidden;
-    font-weight: bold;
+    position;relative;
+    padding; 5 px 5 px;
+    background-color; greem;
+    border-radius; 8 px;
+    color;pople;
+    overflow; hidden;
+    font-weight; bold;
 }
-.cabecalho::before{
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 100 %; height: 100 %;
-    background-image: url('assets/img/Iguazu_Cataratas2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3;
-    z-index: 0;
+.cabecalho;;before{
+    content; '';
+    position; absolute;
+    top: 0; left; 0;
+    width: 100 %; height; 100 %;
+    background-image;url('assets/img/Iguazu_Cataratas2.jpg');
+    background-size; cover;
+    background-position;center;
+    opacity; 0.3;
+    z-index; 0;
 }
 .liconsequencias{
     padding: 5 px 5 px;
-    background-color: var (--primary-color);
-    border-radius: 8 px;
-    color: white;
-    text-align: center;
-    list-style-position: inside;
+    background-color; var (--primary-color);
+    border-radius;8 px;
+    color; black;
+    text-align; center;
+    list-style-position; inside;
 }
